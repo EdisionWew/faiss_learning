@@ -36,7 +36,7 @@ int main()
     
     int indexNum = 10;//批量生成hnsw_Flat_Index的个数
     
-    string filename = "/workspace/mnt/group/algo-sdk/wangerwei/faiss/WEW_test/hnsw_Flat.conf";//配置文件的绝对路径
+    string filename = "./hnsw_Flat.conf";//配置文件的绝对路径
     
     struct HNSW_FLAT hnsw_flat(filename.c_str());
     
